@@ -1,0 +1,276 @@
+<ex-servers>
+<url-clients>http://164.132.67.155/clients</url-clients>
+<img-hash>ex18</img-hash>
+<server>
+<name>Classic 1.8</name>
+<dir>classic</dir>
+<version>1.8</version>
+<hash>ex01</hash>
+<class-path>
+<path>bin\exbl.jar</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\excomplet.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\classic.jar
+</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+<server>
+<name>Industrial 1.7</name>
+<dir>industrial</dir>
+<version>1.7.10</version>
+<hash>ex03</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge.jar
+</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\excomplet.jar</path>
+<path>bin\industrial.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+<server>
+<name>HiTech 1.7</name>
+<dir>hitech</dir>
+<version>1.7.10</version>
+<hash>ex03</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge.jar
+</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\excomplet.jar</path>
+<path>bin\hitech.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+<server>
+<name>SandBox 1.7</name>
+<dir>sandbox</dir>
+<version>1.7.10</version>
+<hash>ex03</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge.jar
+</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\excomplet.jar</path>
+<path>bin\sandbox.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+<server>
+<name>RPG 1.7</name>
+<dir>rpg</dir>
+<version>1.7.10</version>
+<hash>ex08</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge.jar
+</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\excomplet.jar</path>
+<path>bin\rpg.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+<server>
+<name>MagickaIO 1.7</name>
+<dir>magickaio</dir>
+<version>1.7.10</version>
+<hash>ex01</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge.jar
+</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\excomplet.jar</path>
+<path>bin\magickaio.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+<server>
+<name>Pixelmon 1.7</name>
+<dir>pixelmon</dir>
+<version>1.7.10</version>
+<hash>ex02</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge.jar
+</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\excomplet.jar</path>
+<path>bin\pixelmon.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+<server>
+<name>Event Server</name>
+<dir>event</dir>
+<version>1.7.10</version>
+<hash>ex01</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge.jar
+</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\snowevent.jar</path>
+<path>bin\excomplet.jar</path>
+<path>bin\event.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+<server>
+<name>Stalker 1.6</name>
+<dir>stalker</dir>
+<version>1.6.4</version>
+<hash>ex01</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge164.jar
+</path>
+<path>bin\excomplet.jar</path>
+<path>bin\stalker.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker
+</arguments>
+</server>
+<server>
+<name>DayZ 1.6</name>
+<dir>dayz</dir>
+<version>1.6.4</version>
+<hash>ex01</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge164.jar
+</path>
+<path>bin\excomplet.jar</path>
+<path>bin\dayz.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker
+</arguments>
+</server>
+<server>
+<name>Mysteria 1.7</name>
+<dir>mysteria</dir>
+<version>1.7.10</version>
+<hash>ex01</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge.jar
+</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\excomplet.jar</path>
+<path>bin\mysteria.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+<server>
+<name>Test 1.7</name>
+<dir>test</dir>
+<version>1.7.10</version>
+<hash>ex01</hash>
+<class-path>
+<path>bin\exblforforge.jar</path>
+<path>
+bin\..\..\..\..\..\..\..\bypass_byDotEXE\excalibur_new\exblforge.jar
+</path>
+<path>bin\exauth.jar</path>
+<path>bin\liteloader.jar</path>
+<path>bin\excomplet.jar</path>
+<path>bin\industrial.jar</path>
+</class-path>
+<main-class>net.minecraft.launchwrapper.Launch</main-class>
+<extra-arguments>
+-Xmx@RAM@ -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true
+</extra-arguments>
+<arguments>
+--accessToken @SESSION@ --username @USER@ --session @SESSION@ --tweakClass cpw.mods.fml.common.launcher.FMLTweaker --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker
+</arguments>
+</server>
+</ex-servers>
